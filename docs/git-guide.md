@@ -52,37 +52,37 @@ Ressemble à un bash linux, on peut faire les commandes classiques :
 possible via git ou via l'application de bureau github
 
 On commence par pull, c-à-d récupérer les fichiers du repo sur son PC :
-git pull
-sur l'app ; Fetch origin -> Pull origin
+- git pull
+- sur l'app : Fetch origin -> Pull origin
 
 On sur met sur une autre branche : 
-git checkout feature/xbox-controller
-sur l'app : current branch -> Change branch
+- git checkout feature/xbox-controller
+- sur l'app : current branch -> Change branch
 
 ou on en créé une nouvelle : 
-git checkout -b feature/ma-fonctionnalité
-sur l'app : current branch -> New branch
+- git checkout -b feature/ma-fonctionnalité
+- sur l'app : current branch -> New branch
 
 On peut utiliser à tout moment "git status" pour voir l'état des fichiers modifiés
 
 Pour renvoyer les modifications sur GitHub (push) : 
 
 D'abbord constituer la liste de ce que l'on veut push
-git add . (ajouter tous les fichiers), ou 
-git add main.c (ajouter le fichier main.c)
+- git add . (ajouter tous les fichiers), ou 
+- git add main.c (ajouter le fichier main.c)
 
 puis enregistrer ces modifications (commit) avec ou sans commentaire (-m) ( c'est mieux avec quand même pour traçer ) : 
-git commit
-git commit -m "Ajout du fichier toto.c, en cours de développement" 
+- git commit
+- git commit -m "Ajout du fichier toto.c, en cours de développement" 
 
-sur l'app : remplir la partie summary avec la description et commit
+- sur l'app : remplir la partie summary avec la description et commit
 
 Enfin, on peut push : 
-git push
-sur l'app : push origin
+- git push
+- sur l'app : push origin
 
 Pour l'historique des commits : 
-git log
+- git log
 
 
 # Rappel des bonnes pratiques
