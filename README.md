@@ -12,13 +12,7 @@ Projet de voiture RC pilotée par manette Xbox.
 
 ## Architecture
 
-Manette Xbox
-    ↓   Bluetooth
-  ESP32
-    ↓   SPI
-  STM32
-    ↓   PWM
-Moteurs + Direction
+Manette Xbox -> Bluetooth -> ESP32 -> SPI -> STM32 -> PWM -> Moteurs + Direction
 
 ## Comment contribuer
 
