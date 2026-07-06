@@ -5,7 +5,7 @@
 
 # V0.2
 
-app PC / Android → ESP32
+- app PC / Android → ESP32
 
 # V0.3
 
@@ -19,7 +19,7 @@ app PC / Android → ESP32
 
 - Pilotage direction
 
-#V0.6 - 0.X
+# V0.6 - 0.X
 
 - Intégration progressive (piloter la voiture depuis l'ESP, depuis l'appli PC, depuis la manette)
 
