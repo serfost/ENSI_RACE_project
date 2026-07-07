@@ -7,31 +7,31 @@ Le repo contient :
 - La documentation
 - Le suivi des tâches (gantt, tâches, rôles, avancement, problèmes, bugs...) -> C'est une partie importante pour s'y retrouver et respecter les deadlines (et pour la note ça rend bien)
 
-# Issues
+## Issues
 
 les différentes tâches à accomplir. Peut être une tâche générale ou simplement une requête d'aide pour la résolution d'un bug
 
-# Branches
+## Branches
 
 Permettent de travailler sur une fonctionnalité sans modifier directement la branche principale (main)
 
 Une branche par fonctionnalité et par personne pour le partage des tâches
 
-# Push
+## Push
 
 Envoi des modifications vers le repo github
 
-# Pull
+## Pull
 
 Récupération des modifications des autres ( synchronisation avec la version locale sur le PC )
 
-# Pull Request (PR)
+## Pull Request (PR)
 
 Proposer une modification et la soumettre à validation avant de modifier le main
 
 Permet d'éviter de tout casser parce que Michel a pas fait gaffe. Elles sont ici obligatoires pour modifier le main.
 
-# Project
+## Project
 
 Tableau permettant de suivre l'avancement du projet : gantt, liste des tâches, activité du repo dans le temps
 
@@ -47,7 +47,7 @@ Ressemble à un bash linux, on peut faire les commandes classiques :
 - mkdir <name> : MaKe DIRectory ( Créer un dossier )
 - rm <name> : remove (supprimer)
 
-# Pour travailelr sur le repo github
+## Pour travailelr sur le repo github
 
 possible via git ou via l'application de bureau github
 
@@ -87,13 +87,12 @@ Pour l'historique des commits :
 
 # Rappel des bonnes pratiques
 
-git pull avant de commencer
-Se placer dans la branche correspondant à ce sur quoi on travaille
-faire des commits réguliers et COMMENTÉS
-Supprimer la branche après acceptation de la pull request et fusion
+- Git pull avant de commencer
+- Se placer dans la branche correspondant à ce sur quoi on travaille
+- Faire des commits RÉGULIERS et COMMENTÉS
+- Supprimer la branche après acceptation de la pull request et fusion
 
-# Exemple complet 
-
+# Exemple
 
 git pull
 
