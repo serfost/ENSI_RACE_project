@@ -1,0 +1,7 @@
+
+blank_issues_enabled: true
+
+contact_links:
+  - name: Documentation du projet
+    url: https://github.com/mon-organisation/mon-projet/blob/main/README.md
+    about: Consulte la documentation avant de créer une issue.
