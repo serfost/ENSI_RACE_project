@@ -1,6 +1,7 @@
 ## Doc officielle Microsoft : XInput
 
 Doc : https://learn.microsoft.com/en-us/windows/win32/xinput/xinput-game-controller-apis-portal
+
 Guide de programmation : https://learn.microsoft.com/en-us/windows/win32/xinput/programming-guide
 
 Fonctions principales : 
@@ -31,3 +32,5 @@ while True:
   if joy.get_button(0):
     print("A")
 ```
+
+Voir projet github example : Xbox_Controller_Input
