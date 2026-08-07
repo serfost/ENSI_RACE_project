@@ -1,8 +1,10 @@
 ## Doc officielle Microsoft : XInput
 
-Doc : https://learn.microsoft.com/en-us/windows/win32/xinput/xinput-game-controller-apis-portal
+[Doc officielle microsoft](https://learn.microsoft.com/en-us/windows/win32/xinput/xinput-game-controller-apis-portal)
 
-Guide de programmation : https://learn.microsoft.com/en-us/windows/win32/xinput/programming-guide
+[Guide de programmation](https://learn.microsoft.com/en-us/windows/win32/xinput/programming-guide)
+
+Exemple (très utile) de [Lecture de la manette avec pygame](https://github.com/SimonSchirber/Xbox_Controller_Input/blob/main/xbox_ctrl_general.py)
 
 Fonctions principales : 
 XInputGetState() : 
@@ -32,5 +34,3 @@ while True:
   if joy.get_button(0):
     print("A")
 ```
-
-Voir projet github example : Xbox_Controller_Input
