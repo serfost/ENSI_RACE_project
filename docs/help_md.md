@@ -2,7 +2,7 @@
 - Use # for headings (# H1, ## H2, ### H3)
 ## Bold/Italic 
 - **Deux étoiles "*" de chaque côté : gras**
-- *Une de chaqsue côté : italique*
+- *Une de chaque côté : italique*
 ## Lists
 - "-" or "*" for unordered, "1." for ordered
 ## Links
